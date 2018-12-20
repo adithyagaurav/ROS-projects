@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" respawn="true" />
+  <node pkg="cleaner_robot" type="cleaner_bot.py" name="robot_cleaner" output="screen" />
+</launch>
